@@ -1,0 +1,68 @@
+.container{
+ margin-top: 50px;
+ text-align: center;
+}
+
+.container .jumbotron{
+  background: red;
+  color: white;
+}
+
+.jumbotron a{
+  background: yellow;
+  color: red;
+  border: 2px solid green;
+}
+
+body{
+  background: url(https://images.unsplash.com/photo-1528459584353-5297db1a9c01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: white;
+  text-align: center;
+  background: Red;
+}
+
+html {
+  height: 100%;
+}
+
+img{
+  height:200px;
+  width:20%;
+  margin: 2%;
+  border: 2px solid red;
+}
+
+#special{
+  color: yellow;
+  text-align: center;
+  font-size: 50px;
+}
+
+table,thead,th{
+  color:yellow;
+  border: 2px solid white;
+  font-size: 20px;
+  margin: auto;
+  background: red;
+}
+
+thead,th{
+  color:white;
+  border 2px solid white;
+  font-size: 25px;
+  margin:auto;
+  background: blue;
+}
+
+#specialtr tr:nth-of-type(even){
+  background: white !important;
+}
+
+
+tr:nth-last-of-type(even){
+  background: green;
+}
